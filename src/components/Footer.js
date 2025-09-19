@@ -48,8 +48,8 @@ const Footer = () => {
                 <p className="footer-desc">
                   Leading digital marketing agency specializing in transforming businesses 
                   through innovative <strong>SEO strategies</strong>, <strong>Social Media Marketing</strong>, 
-                  <strong>PPC Campaigns</strong>, <strong>Web Development</strong>, and 
-                  <strong>Brand Design</strong> solutions.
+                  <strong>PPC Campaigns</strong>, <strong>Web Development</strong>, and    
+                  <strong> Brand Design</strong> solutions.
                 </p>
 
                 <div className="company-features">
@@ -86,6 +86,7 @@ const Footer = () => {
                   <li><NavLink to="/blog/page">Blog</NavLink></li>
                   
                   <li><NavLink to="/contact">Contact Us</NavLink></li>
+                  <li><NavLink to="/web/developer/page">Services</NavLink></li>
                 </ul>
               </div>
             </div>
@@ -207,8 +208,7 @@ const Footer = () => {
             <div className="col-md-6">
               <div className="footer-bottom-links">
                 <NavLink to="/privacy" className="footer-bottom-link">Privacy Policy</NavLink>
-                <NavLink to="/terms" className="footer-bottom-link">Terms & Conditions</NavLink>
-                <NavLink to="/sitemap" className="footer-bottom-link">Sitemap</NavLink>
+                
               </div>
             </div>
           </div>

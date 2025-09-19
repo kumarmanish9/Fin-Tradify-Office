@@ -188,17 +188,25 @@
 }
 
 /* Hover state */
+.features .nav-tabs .nav-link {
+ background-color: #063f79; /* non-active tabs ka background */
+  color: #333;
+  border-radius: 8px 8px 0 0;
+  transition: all 0.3s ease;
+}
+
 .features .nav-tabs .nav-link:hover {
-  color: #ffffff !important;
-  background-color: #3798fa;
+  /* color: #ffffff !important; */
+   /* hover color */
 }
 
 .features .nav-tabs .nav-link.active {
-  background-color: #3798fa;
+  /* active tab */
   border-radius: 8px 8px 0 0;
-  color: #faf8f8;
+  color: #161515;
   font-weight: 700;
 }
+
 
 .feature-imgg {
   width: 90%;              /* 🔽 Reduced width from 100% */

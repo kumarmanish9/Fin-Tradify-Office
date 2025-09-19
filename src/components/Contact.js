@@ -23,12 +23,12 @@ const Contact = () => {
 
           {/* Social Media Icons */}
           <div className="social-icons mt-3">
-            <a href="#"><i className="bi bi-facebook"></i></a>
-            <a href="#"><i className="bi bi-instagram"></i></a>
-            <a href="#"><i className="bi bi-twitter-x"></i></a>
-            <a href="#"><i className="bi bi-youtube"></i></a>
-            <a href="#"><i className="bi bi-linkedin"></i></a>
-            <a href="#"><i className="bi bi-pinterest"></i></a>
+            <a href="https://www.facebook.com/FinTradify">
+              <i className="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/fintradify/">
+              <i className="bi bi-instagram"></i>
+            </a>
           </div>
         </div>
 
@@ -37,7 +37,7 @@ const Contact = () => {
           <div className="card shadow-sm p-4">
             <h5 className="mb-3">Contact Form</h5>
             <form
-              action="https://formsubmit.co/sumitkumar95985@gmail.com"
+              action="https://formsubmit.co/Fintradify@gmail.com"
               method="POST"
               className="contact-form"
             >
@@ -73,38 +73,53 @@ const Contact = () => {
                   />
                 </div>
                 <div className="col">
-                  <select
-                    name="service"
-                    className="form-select"
-                    defaultValue=""
-                  >
+                  <select name="service" className="form-select" defaultValue="">
                     <option value="" disabled>
                       My Service
                     </option>
 
                     {/* Website & SEO */}
                     <option value="website">Website Development</option>
-                    <option value="seo">SEO (Search Engine Optimization)</option>
+                    <option value="seo">
+                      SEO (Search Engine Optimization)
+                    </option>
 
                     {/* Digital Marketing Group */}
                     <optgroup label="Digital Marketing Services">
-                      <option value="digital-overall">Complete Digital Marketing</option>
+                      <option value="digital-overall">
+                        Complete Digital Marketing
+                      </option>
                       <option value="smm">Social Media Marketing</option>
                       <option value="ppc">Google Ads / PPC / Meta</option>
                       <option value="email">Email Marketing</option>
-                      <option value="whatsapp">WhatsApp / Telegram Marketing</option>
+                      <option value="whatsapp">
+                        WhatsApp / Telegram Marketing
+                      </option>
                       <option value="content">Content Marketing</option>
                       <option value="influencer">Influencer Marketing</option>
-                      <option value="ott">OTT / YouTube Ads</option>
-                      <option value="branding">Branding & Creative Design</option>
-                      <option value="analytics">Web Analytics & Tracking</option>
-                      <option value="crm">CRM & Marketing Automation</option>
+                      <option value="branding">
+                        Branding & Creative Design
+                      </option>
+                      <option value="analytics">
+                        Web Analytics & Tracking
+                      </option>
                     </optgroup>
                   </select>
                 </div>
+              </div>
 
-
-
+              {/* ✅ New Budget Dropdown */}
+              <div className="mb-3">
+                <select name="budget" className="form-select" defaultValue="">
+                  <option value="" disabled>
+                    Select Your Budget
+                  </option>
+                 
+                  <option value="10000-25000">₹10,000 - ₹25,000 / month</option>
+                  <option value="25000-50000">₹25,000 - ₹50,000 / month</option>
+                  <option value="50000-1lac">₹50,000 - ₹1,00,000 / month</option>
+                  <option value="1lac-plus">₹1,00,000+ / month</option>
+                </select>
               </div>
 
               <div className="mb-3">
@@ -116,9 +131,6 @@ const Contact = () => {
                   required
                 ></textarea>
               </div>
-
-              {/* Simple Captcha */}
-
 
               <button type="submit" className="btn btn-primary">
                 Submit Now

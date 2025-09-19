@@ -81,17 +81,21 @@
   height: auto;
 }
 
-
 .service-card {
-  min-height: 120px;         /* 🔥 fix card height */
-  display: flex;             /* flexbox for centering */
+  min-height: 160px;         
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background: #fff;          /* white background */
-  border: 1px solid #eee;    /* subtle border */
+  justify-content: center;   
+  background: #fff;
+  border: 1px solid #eee;
   transition: all 0.3s ease;
   cursor: pointer;
+  padding: 15px;
+  text-align: center;
+  word-wrap: break-word;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 /* Hover effect */
@@ -103,7 +107,7 @@
 
 /* Icon style */
 .service-card i {
-  font-size: 28px;   /* bigger icon */
+  font-size: 28px;
   margin-bottom: 8px;
 }
 
@@ -113,7 +117,27 @@
   font-weight: 500;
   margin: 0;
   color: #333;
+  line-height: 1.4;
+  word-break: break-word;
 }
+
+/* ✅ Responsive fix - Mobile me chhoti height */
+@media (max-width: 768px) {
+  .service-card {
+    min-height: 120px;   /* chhoti height for phone */
+    height: auto;        /* auto adjust ho content ke hisaab se */
+    padding: 10px;       /* thoda compact padding */
+  }
+
+  .service-card i {
+    font-size: 22px;     /* icons bhi thode chhote */
+  }
+
+  .service-card p {
+    font-size: 13px;     /* text thoda compact */
+  }
+}
+
 
 
 

@@ -42,9 +42,7 @@ const GoogleAdsPage = () => {
           <p className="lead mb-4">
             Promote on Facebook, Instagram & YouTube with Smart Ad Strategies
           </p>
-          <Button variant="light" size="lg">
-            Join Social Spark Hub
-          </Button>
+          
         </div>
       </div>
     </section>
@@ -77,9 +75,7 @@ const GoogleAdsPage = () => {
               you connect with interested customers at the perfect moment, driving
               conversions and growth.
             </p>
-            <button className="btn btn-success mt-3 px-4 py-2">
-              Start Advertising Now
-            </button>
+           
           </div>
         </div>
       </section>
@@ -191,7 +187,7 @@ const GoogleAdsPage = () => {
               <Card className="h-100 shadow border-0 rounded-4">
                 <Card.Img
                   variant="top"
-                  src="https://www.abstraktmg.com/nitropack_static/bbRzcsRJDGMWPqtQsfhJnIQsrmgxVPGl/assets/images/optimized/rev-f85cb72/www.abstraktmg.com/wp-content/uploads/2024/04/What-Is-Paid-Search_Main.png"
+                  src="https://www.icecubedigital.com/wp-content/webp-express/webp-images/uploads/2024/06/Search-Campaigns.jpg.webp"
                   alt="Search Ads"
                   style={{ borderTopLeftRadius: '1rem', borderTopRightRadius: '1rem' }}
                 />
@@ -200,7 +196,7 @@ const GoogleAdsPage = () => {
                   <Card.Text>
                     Get your business in front of users actively searching for your products or services on Google.
                   </Card.Text>
-                  <Button variant="outline-primary">Learn More</Button>
+                 
                 </Card.Body>
               </Card>
             </Col>
@@ -218,7 +214,7 @@ const GoogleAdsPage = () => {
                   <Card.Text>
                     Reach new audiences across millions of websites and apps with engaging visual ads.
                   </Card.Text>
-                  <Button variant="outline-success">Explore Options</Button>
+                 
                 </Card.Body>
               </Card>
             </Col>
@@ -236,7 +232,7 @@ const GoogleAdsPage = () => {
                   <Card.Text>
                     Leverage the power of YouTube to deliver your message through captivating video content.
                   </Card.Text>
-                  <Button variant="outline-danger">See Examples</Button>
+                 
                 </Card.Body>
               </Card>
             </Col>

@@ -74,56 +74,11 @@ const SEOPage = () => {
         <div className="hero-slider">
           <Carousel fade interval={4000} controls indicators>
             {/* Slide 1 */}
-            <Carousel.Item>
-              <div
-                className="slide slide-1 sle text-white text-center d-flex align-items-center"
-                style={{ minHeight: "400px" }}
-              >
-                <Container>
-                  <h1 className="display-4 fw-bold"> Grow Your Business with Google Ads</h1>
-                  <p className="lead text-white">
-                    Promote on Facebook, Instagram, and YouTube for maximum reach
-                  </p>
-                  <Button variant="light" size="lg" className="mt-3 fw-bold">
-                    Join Social Spark Hub
-                  </Button>
-                </Container>
-              </div>
-            </Carousel.Item>
+            
 
-            {/* Slide 2 */}
-            <Carousel.Item>
-              <div
-                className="slide slide-2 sle text-white text-center d-flex align-items-center"
-                style={{ minHeight: "400px" }}
-              >
-                <Container>
-                  <h1 className="display-4 fw-bold"> Facebook & Instagram Ads</h1>
-                  <p className="lead text-white">Boost conversions with smart audience targeting</p>
-                  <Button variant="light" size="lg" className="mt-3 fw-bold">
-                    Start Today
-                  </Button>
-                </Container>
-              </div>
-            </Carousel.Item>
+            
 
-            {/* Slide 3 */}
-            <Carousel.Item>
-              <div
-                className="slide slide-3 sle text-white text-center d-flex align-items-center"
-                style={{ minHeight: "400px" }}
-              >
-                <Container>
-                  <h1 className="display-4 fw-bold"> YouTube Video Promotions</h1>
-                  <p className="lead text-white">
-                    Get discovered with compelling videos & brand storytelling
-                  </p>
-                  <Button variant="light" size="lg" className="mt-3 fw-bold">
-                    Launch Now
-                  </Button>
-                </Container>
-              </div>
-            </Carousel.Item>
+            
 
             {/* Slide 4 */}
             <Carousel.Item>
@@ -134,12 +89,12 @@ const SEOPage = () => {
                 <Container>
                   <h1 className="display-4 fw-bold"> Best SEO Agency in India</h1>
                   <p className="lead text-white">
-                    Transform your online presence with <strong>FiTradify</strong>, Noida’s top
-                    SEO agency. Tailored strategies that boost visibility & leads.
+                    Rank your website on google top page with <strong>FinTradify</strong> top
+                    SEO agency. Tailored strategies that boost visibility & generate leads.
                   </p>
-                  <Button variant="light" size="lg" className="mt-3 fw-bold">
+                  {/* <Button variant="light" size="lg" className="mt-3 fw-bold">
                     Join Social Spark Hub
-                  </Button>
+                  </Button> */}
                 </Container>
               </div>
             </Carousel.Item>

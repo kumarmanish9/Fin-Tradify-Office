@@ -15,7 +15,7 @@ const DigitalWalletFeatures = () => {
                 <div className="banner-content">
                     <h1>Digital Wallet</h1>
                     <p>Grow your brand with our creative marketing solutions.</p>
-                    <button className="banner-btn">Get Started</button>
+                     
                 </div>
             </section>
 
@@ -133,7 +133,7 @@ const DigitalWalletFeatures = () => {
         <div className="feature-card shadow-lg rounded-4 p-4 h-100 d-flex flex-column align-items-center text-center">
           <div className="feature-img-wrapper mb-3">
             <img
-              src="https://sanctamaria.in/wp-content/uploads/2022/02/electronic-transactions-more-secure.png"
+              src="https://img.freepik.com/premium-vector/secure-transaction-concept_23785-162.jpg"
               alt="Secure Transactions"
               className="feature-img rounded-3"
             />

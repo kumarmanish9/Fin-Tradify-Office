@@ -309,14 +309,7 @@ function SocialSparkHub() {
             </section>
 
            
-            {/* Contact CTA */}
-            <div className="bg-primary text-white text-center py-5">
-                <Container>
-                    <h2>Ready to Scale with Social Spark Hub?</h2>
-                    <p>Contact us now and let’s build your online presence together.</p>
-                    <Button variant="light" size="lg">Contact Social Spark Hub</Button>
-                </Container>
-            </div>
+           
         </>
     );
 }

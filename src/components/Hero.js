@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import { BsCheck2All } from 'react-icons/bs';
 import { TypeAnimation } from "react-type-animation";
 import { Modal, Button, Form, Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 
 
@@ -98,7 +99,7 @@ const Hero = () => {
     setTimeout(() => {
       setShow(true);
       setPopupCount(1);
-    }, 2000); // पहली बार 2 sec बाद खुलेगा
+    }, 10000); // पहली बार 2 sec बाद खुलेगा
   }, []);
 
   return (
@@ -164,31 +165,43 @@ const Hero = () => {
 
               {/* Small Service Cards in Row */}
               <div className="row g-3 mt-3">
-                <div className="col-3">
-                  <div className="service-card p-2 text-center shadow-sm rounded">
-                    <i className="bi bi-laptop fs-4 text-info"></i>
-                    <p className="mt-1 mb-0 small">Website Development</p>
-                  </div>
+                <div className="col-6 col-md-3">
+                  <Link to="/web/developer/page" className="text-decoration-none">
+                    <div className="service-card p-2 text-center shadow-sm rounded">
+                      <i className="bi bi-laptop fs-4 text-info"></i>
+                      <p className="mt-1 mb-0 small p-2 text-dark">Web Development</p>
+                    </div>
+                  </Link>
                 </div>
-                <div className="col-3">
-                  <div className="service-card p-2 text-center shadow-sm rounded">
-                    <i className="bi bi-share fs-4 text-primary"></i>
-                    <p className="mt-1 mb-0 small">Social Media</p>
-                  </div>
+
+                <div className="col-6 col-md-3">
+                  <Link to="/social/spark/hub" className="text-decoration-none">
+                    <div className="service-card p-2 text-center shadow-sm rounded">
+                      <i className="bi bi-share fs-4 text-primary"></i>
+                      <p className="mt-1 mb-0 small text-dark">Social Media</p>
+                    </div>
+                  </Link>
                 </div>
-                <div className="col-3">
-                  <div className="service-card p-2 text-center shadow-sm rounded">
-                    <i className="bi bi-search fs-4 text-success"></i>
-                    <p className="mt-1 mb-0 small">SEO</p>
-                  </div>
+
+                <div className="col-6 col-md-3">
+                  <Link to="/seo/page" className="text-decoration-none">
+                    <div className="service-card p-2 text-center shadow-sm rounded">
+                      <i className="bi bi-search fs-4 text-success"></i>
+                      <p className="mt-1 mb-0 small text-dark">SEO</p>
+                    </div>
+                  </Link>
                 </div>
-                <div className="col-3">
-                  <div className="service-card p-2 text-center shadow-sm rounded">
-                    <i className="bi bi-megaphone fs-4 text-warning"></i>
-                    <p className="mt-1 mb-0 small">Google Ads</p>
-                  </div>
+
+                <div className="col-6 col-md-3">
+                  <Link to="/google/ads/page" className="text-decoration-none">
+                    <div className="service-card p-2 text-center shadow-sm rounded">
+                      <i className="bi bi-megaphone fs-4 text-warning"></i>
+                      <p className="mt-1 mb-0 small text-dark">Google Ads</p>
+                    </div>
+                  </Link>
                 </div>
               </div>
+
 
               {/* Tagline */}
               <p className="hero-tagline mt-3">
@@ -265,16 +278,12 @@ const Hero = () => {
           <Modal.Body>
             {/* 🔑 Direct submit to FormSubmit */}
             <form
-              action="https://formsubmit.co/sumitkumar95985@gmail.com"
+              action="https://formsubmit.co/Fintradify@gmail.com"
               method="POST"
             >
               {/* 👇 Hidden fields for extra options */}
               <input type="hidden" name="_captcha" value="false" />
-              <input
-                type="hidden"
-                name="_next"
-                value=""
-              />
+              <input type="hidden" name="_next" value="" />
 
               <Row>
                 <Col md={6} className="mb-3">
@@ -309,11 +318,7 @@ const Hero = () => {
                 </Col>
                 <Col md={6} className="mb-3">
                   <label className="form-label">Company</label>
-                  <input
-                    type="text"
-                    name="company"
-                    className="form-control"
-                  />
+                  <input type="text" name="company" className="form-control" />
                 </Col>
               </Row>
 
@@ -321,27 +326,28 @@ const Hero = () => {
                 <Col md={6} className="mb-3">
                   <label className="form-label">Service *</label>
                   <select name="service" className="form-select" required>
-                    <option value="">-- Select Service --</option>
-                    <option>SEO</option>
-                    <option>PPC / Google Ads</option>
-                    <option>Social Media Marketing</option>
-                    <option>Email Marketing</option>
-                    <option>WhatsApp / Telegram Marketing</option>
-                    <option>Content Marketing</option>
-                    <option>Influencer Marketing</option>
-                    <option>OTT / YouTube Ads</option>
-                    <option>Website Development</option>
+                    <option value="digital-overall">Complete Digital Marketing</option>
+                    <option value="smm">Social Media Marketing</option>
+                    <option value="ppc">Google Ads / PPC / Meta</option>
+                    <option value="email">Email Marketing</option>
+                    <option value="whatsapp">WhatsApp / Telegram Marketing</option>
+                    <option value="content">Content Marketing</option>
+                    <option value="influencer">Influencer Marketing</option>
+                    <option value="branding">Branding & Creative Design</option>
+                    <option value="analytics">Web Analytics & Tracking</option>
                   </select>
                 </Col>
+
+                {/* 👇 New Price/Budget Dropdown */}
                 <Col md={6} className="mb-3">
                   <label className="form-label">Budget *</label>
                   <select name="budget" className="form-select" required>
-                    <option value="">-- Select Budget --</option>
-                    <option>₹10,000 - ₹25,000</option>
-                    <option>₹25,000 - ₹50,000</option>
-                    <option>₹50,000 - ₹1,00,000</option>
-                    <option>₹1,00,000 - ₹5,00,000</option>
-                    <option>Above ₹5,00,000</option>
+                    <option value="">Select Your Budget</option>
+
+                    <option value="10000-25000">₹10,000 - ₹25,000 / month</option>
+                    <option value="25000-50000">₹25,000 - ₹50,000 / month</option>
+                    <option value="50000-1lac">₹50,000 - ₹1,00,000 / month</option>
+                    <option value="1lac-plus">₹1,00,000+ / month</option>
                   </select>
                 </Col>
               </Row>
@@ -349,11 +355,7 @@ const Hero = () => {
               <Row>
                 <Col md={12} className="mb-3">
                   <label className="form-label">Message</label>
-                  <textarea
-                    name="message"
-                    className="form-control"
-                    rows="3"
-                  ></textarea>
+                  <textarea name="message" className="form-control" rows="3"></textarea>
                 </Col>
               </Row>
 
@@ -365,6 +367,7 @@ const Hero = () => {
             </form>
           </Modal.Body>
         </Modal>
+
       </section>
 
 
@@ -375,7 +378,7 @@ const Hero = () => {
 
       <section id="services-2" className="services-2 section light-background">
         <div className="container section-title" data-aos="fade-up">
-          <h2 className="section-heading" data-aos="fade-up"> <span className='bg-yellow'> My </span> Services</h2>
+          <h2 className="section-heading" data-aos="fade-up"> <span className='bg-yellow'> Our </span> Services</h2>
           <p> CHECK OUR SERVICES</p>
         </div>
 
@@ -709,7 +712,7 @@ const Hero = () => {
 
         <div className="container section-title" data-aos="fade-up">
           <h2 className="section-heading" data-aos="fade-up">
-            <span className="bg-yellow">Our</span> About
+            <span className="bg-yellow"> About</span> Us
           </h2>
           <p>Our team specializes in building scalable IT infrastructures that are robust, secure, and future-ready.</p>
         </div>
@@ -895,7 +898,7 @@ const Hero = () => {
       <section className="ak-section py-5">
         <div className="container">
           <h2 className="text-center mb-5 " data-aos="fade-down">
-            <span className="bg-yellow"> My </span> Creations
+            <span className="bg-yellow"> Our </span> Creations
           </h2>
           <div className="row justify-content-center">
             {/* Image 1 */}

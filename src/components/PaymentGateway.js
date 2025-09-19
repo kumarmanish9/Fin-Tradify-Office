@@ -31,7 +31,7 @@ const PaymentGateway = () => {
             data-aos="fade-left"
             data-aos-duration="1000"
           >
-            <h2 className="section-title mb-3">🔐 Secure & Fast Payment Gateway</h2>
+            <h2 className="section-title mb-3"> Secure & Fast Payment Gateway</h2>
             <p className="section-description">
               We support multiple payment methods including UPI, Cards, Net Banking, and Wallets.
               Your transactions are encrypted & protected for your peace of mind.
@@ -49,14 +49,7 @@ const PaymentGateway = () => {
               </li>
             </ul>
 
-            <a
-              href="#checkout"
-              className="btn btn-primary mt-4 px-4 py-2"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-            >
-              🚀 Proceed to Pay
-            </a>
+            
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@ const AKGraphicsDesign = () => {
                             <p className="text-muted">
                                 As a leading graphic design company in Noida, <strong>FINTRADIFY</strong> excels in creating and curating any form of design. Contact us today, and we’ll ensure an extraordinary experience with unmatched graphic design services delivered promptly.
                             </p>
-                            <Button className="btn-primary" size="md">Start Advertising Now</Button>
+                            
                         </Col>
                     </Row>
                 </Container>
@@ -173,9 +173,7 @@ const AKGraphicsDesign = () => {
                                 <br /><br />
                                 <strong>FINTRADIFY</strong> is committed to delivering exceptional graphic design services tailored to your needs. Reach out to us, and let us create designs that leave a lasting impression.
                             </p>
-                            <button className="btn btn-primary px-4 py-2 mt-3 shadow-sm">
-                                Explore More
-                            </button>
+                            
                         </div>
 
                         {/* Image Content */}

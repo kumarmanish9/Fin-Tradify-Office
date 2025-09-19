@@ -39,7 +39,7 @@ const PeerToPeerTransfer = () => {
         <div className="bannerr-content">
           <h1>Peer to Peer Connection</h1>
           <p>Grow your brand with our creative marketing solutions.</p>
-          <button className="bannerr-btn">Get Started</button>
+         
         </div>
       </section>
 

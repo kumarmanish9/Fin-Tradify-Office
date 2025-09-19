@@ -39,7 +39,7 @@ const About = () => {
                       <span className="icon-box">
                         <i className="bi bi-bullseye"></i>
                       </span>{" "}
-                      Pay Per Click (Google Ads / PPC)
+                      Pay Per Click (Google Ads / Meta Ads)
                     </li>
                     <li>
                       <span className="icon-box">
@@ -64,12 +64,12 @@ const About = () => {
                       </span>{" "}
                       Content & Influencer Marketing
                     </li>
-                    <li>
+                    {/* <li>
                       <span className="icon-box">
                         <i className="bi bi-youtube"></i>
                       </span>{" "}
                       YouTube & OTT Ads
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
 
@@ -127,7 +127,7 @@ const About = () => {
 
       <section id="features" className="features section py-5">
         <div className="container text-center section-title" data-aos="fade-up">
-          <h2 className="section-heading" data-aos="fade-up">  <span className=' h2heding'>My </span>Features</h2>
+          <h2 className="section-heading" data-aos="fade-up">  <span className=' h2heding'>Our </span>Features</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div>
 
@@ -184,7 +184,9 @@ const About = () => {
             <div className="tab-pane fade show active" id="features-tab-1" role="tabpanel">
               <div className="row align-items-center">
                 <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                  <h3 className="section-heading text-black" data-aos="fade-up"> <span className=' h2heding'>Voluptatem</span> dignissimos provident</h3>
+                  <h3 className="section-heading text-black" data-aos="fade-up">
+                    <span className='h2heding'>Happiness</span> Brings True Dignity
+                  </h3>
                   <p className="">
                     <strong>FINTRADIFY</strong> is a result-driven and award-winning digital agency dedicated to helping businesses thrive in the ever-evolving digital world.
                     We are a creative, innovative, and client-friendly digital agency aimed at delivering maximum results at the shortest TAT possible.
@@ -192,9 +194,9 @@ const About = () => {
                     and skyrocket your business to the next level.
                   </p>
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Delivering Excellence with Integrity and Purpose.</li>
-                    <li><i className="bi bi-check2-all"></i>Providing Honorable and Reliable Solutions Tailored to You.</li>
-                    <li><i className="bi bi-check2-all"></i>Crafted with Precision. Delivered with Dignity.</li>
+                    <li><i className=""></i>Delivering Excellence with Integrity and Purpose.</li>
+                    <li><i className=""></i>Providing Honorable and Reliable Solutions Tailored to You.</li>
+                    <li><i className=""></i>Crafted with Precision. Delivered with Dignity.</li>
                   </ul>
                 </div>
                 <div className="col-lg-6 order-1 order-lg-2 text-center">
@@ -216,10 +218,10 @@ const About = () => {
                   <p className=""> Our digital solutions and strategies are tailored to your specific business requirements, driving your brand goals high on the growth curve.
                   </p>
                   <ul>
-                    <li><i className="bi bi-check2-all"></i>Custom-Crafted Solutions Designed for Your Unique Needs.</li>
-                    <li><i className="bi bi-check2-all"></i>Where Innovation Meets Personalization.</li>
-                    <li><i className="bi bi-check2-all"></i>Bespoke Solutions – Because One Size Doesn’t Fit All.</li>
-                    <li><i className="bi bi-check2-all"></i>Precision-Engineered Services to Fit Your Goals.</li>
+                    <li><i className=""></i>Custom-Crafted Solutions Designed for Your Unique Needs.</li>
+                    <li><i className=""></i>Where Innovation Meets Personalization.</li>
+                    <li><i className=""></i>Bespoke Solutions – Because One Size Doesn’t Fit All.</li>
+                    <li><i className=""></i>Precision-Engineered Services to Fit Your Goals.</li>
                   </ul>
                 </div>
                 <div className="col-lg-6 order-1 order-lg-2 text-center">
@@ -239,9 +241,9 @@ const About = () => {
                 <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                   <h3 className="section-heading text-black" data-aos="fade-up"> <span className=' h2heding'>Cost-Effective</span> Solutions</h3>
                   <ul>
-                    <li><i className="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip...</li>
-                    <li><i className="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit...</li>
-                    <li><i className="bi bi-check2-all"></i> Provident mollitia neque rerum...</li>
+                    <li><i className=""></i>Targeted Campaigns – Reach the right audience without wasting budget.</li>
+                    <li><i className=""></i>Data-Driven Marketing – Optimize spend with real-time analytics.</li>
+                    <li><i className=""></i>High ROI Ads – Run performance-based campaigns on Google, Meta & more.</li>
                   </ul>
                   <p className=""> Our digital service packages are affordable and custom-built, ensuring businesses of all sizes can grow using our unparalleled expertise.
 
@@ -351,9 +353,17 @@ const About = () => {
                   <div className="feature-content">
                     <h3 className="section-heading text-black" data-aos="fade-up">  <span className=' h2heding'>Use</span> On Any Device</h3>
                     <p>
-                      Vestibulum ante ipsum primis in faucibus orci luctus et
-                      ultrices posuere cubilia Curae; In ac dui quis mi
-                      consectetuer lacinia.
+                       Mobile Ready – Optimized for Android & iOS smartphones.
+
+                       Desktop Friendly – Smooth performance on laptops & PCs.
+
+                     Tablet Optimized – Perfect fit for every tablet screen size.
+
+                     Anywhere Access – Log in from any device, anywhere in the world.
+
+                       Consistent Experience – Same features and design across all platforms.
+
+                       Responsive Design – No extra apps needed, works instantly on browsers.
                     </p>
                   </div>
                   <div className="feature-icon flex-shrink-0">
@@ -371,8 +381,17 @@ const About = () => {
                   <div className="feature-content">
                     <h2>Feather Icons</h2>
                     <p>
-                      Phasellus ultrices nulla quis nibh. Quisque a lectus.
-                      Donec consectetuer ligula vulputate sem tristique cursus.
+                      Mobile Friendly – Works seamlessly on all smartphones.
+
+                      Desktop Ready – Smooth and fast on any computer or laptop.
+
+                      Tablet Optimized – Perfectly adapted for tablets of all sizes.
+
+                      Global Access – Use it anywhere with just an internet connection.
+
+                      Seamless Online – Stable and reliable experience with WiFi or mobile data.
+
+                      Consistent Experience – Same design, same features, across all devices.
                     </p>
                   </div>
                   <div className="feature-icon flex-shrink-0">
@@ -390,8 +409,17 @@ const About = () => {
                   <div className="feature-content">
                     <h2>Simple Setup</h2>
                     <p>
-                      Praesent dapibus, neque id cursus faucibus, tortor neque
-                      egestas augue, eu vulputate magna eros eu erat.
+                      Quick Installation – No complicated process, just plug & play.
+
+                      User-Friendly – Designed for everyone, no tech skills required.
+
+                      Step-by-Step Guidance – Easy instructions for smooth onboarding.
+
+                      Save Time – Setup takes only a few minutes.
+
+                      One-Click Access – Start using instantly after registration.
+
+                      No Extra Tools Needed – Everything works out-of-the-box.
                     </p>
                   </div>
                   <div className="feature-icon flex-shrink-0">
