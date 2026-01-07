@@ -43,7 +43,7 @@ const skills = [
   },
   {
     name: "Razorpay",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Razorpay_logo.svg",
+    icon: "https://pinlearn.com/wp-content/uploads/2021/10/razorpay-who.png",
     description: "Popular payment gateway integration for secure transactions.",
   },
   {
