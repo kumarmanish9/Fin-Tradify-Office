@@ -51,18 +51,50 @@
 
 /* Contact Button style */
 .contact-btn .nav-link {
-  background: #0052cc;
-  color: #ffffff !important;
+  position: relative;
+  color: #0052cc !important;
   font-weight: 600;
-  border-radius: 8px;
   padding: 0.55rem 1.2rem !important;
-  transition: background 0.3s ease;
+  border-radius: 8px;
+  background: transparent;
+  overflow: hidden;
+  z-index: 1;
 }
 
-.contact-btn .nav-link:hover {
-  background: #003d99;
-  color: #ffffff !important;
+/* 🔄 rotating border */
+.contact-btn .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 160%;
+  height: 160%;
+  top: -30%;
+  left: -30%;
+  background: conic-gradient(
+    #0052cc,
+    #00c6ff,
+    #0052cc
+  );
+  animation: rotate 2s linear infinite;
+  z-index: -2;
 }
+
+/* inner transparent area */
+.contact-btn .nav-link::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: white; /* agar navbar white hai */
+  border-radius: 6px;
+  z-index: -1;
+}
+
+/* animation */
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}  
+
 
 /* Dropdown */
 .dropdown-menu {

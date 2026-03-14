@@ -143,7 +143,7 @@ const Footer = () => {
                     <FaPhone className="contact-icon" />
                     <div>
                       <small>Call Us</small>
-                      <p><a href="tel:+917836009907">+91 78360 09907</a></p>
+                      <p><a href="tel:+919034777136">+91 9034777136</a></p>
                     </div>
                   </div>
 
@@ -151,7 +151,7 @@ const Footer = () => {
                     <FaWhatsapp className="contact-icon whatsapp" />
                     <div>
                       <small>WhatsApp</small>
-                      <p><a href="https://wa.me/917836009907">Quick Support</a></p>
+                      <p><a href="https://wa.me/919034777136">Quick Support</a></p>
                     </div>
                   </div>
 

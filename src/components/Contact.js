@@ -18,7 +18,7 @@ const Contact = () => {
             <i className="bi bi-telephone-fill me-2"></i>
             <strong>Technical Support</strong>
             <br />
-            +91 78360 09907
+            +91 9034777136
           </p>
 
           {/* Social Media Icons */}

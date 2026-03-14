@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import { FaBlog, FaCode, FaRocket, FaPenNib, FaTools, FaLightbulb } from "react-icons/fa";
+ import React, { useEffect, useState } from "react";
+// import { Container, Row, Col, Card, Button } from "react-bootstrap";
+// import { FaBlog, FaCode, FaRocket, FaPenNib, FaTools, FaLightbulb } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import './BlogPage.css';
@@ -13,7 +13,7 @@ const BlogPage = () => {
     AOS.init({ duration: 1000 });
   }, []);
 
-
+      
 
   return (
     <>
